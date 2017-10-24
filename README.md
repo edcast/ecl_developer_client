@@ -10,10 +10,10 @@ Add this line to your application's Gemfile:
 ```ruby
 #tryout in irb
   gem install specific_install
-  gem specific_install -l https://f4b03dbb1824f562729c7d77a1ba474d5d9e7d12:x-oauth-basic@github.com/Course-Master/ecl_developer_client.git
+  gem specific_install -l https://d7f5b0a7f74cadd93799ae93eb277453414f1e14:x-oauth-basic@github.com/Course-Master/ecl_developer_client.git
 
 # In Bundle
-gem 'ecl_client', :git => 'https://f4b03dbb1824f562729c7d77a1ba474d5d9e7d12:x-oauth-basic@github.com/Course-Master/ecl_developer_client.git'
+gem 'ecl_developer_client', :git => 'https://d7f5b0a7f74cadd93799ae93eb277453414f1e14:x-oauth-basic@github.com/Course-Master/ecl_developer_client.git'
 ```
 
 And then execute:

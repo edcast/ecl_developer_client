@@ -10,7 +10,6 @@ module EclDeveloperClient
 
   class RateLimitExceeded < StandardError; end
   class Unauthorized      < StandardError; end
-  class General           < TopsyError; end
 
   class Unavailable   < StandardError; end
   class InformEcl < StandardError; end
