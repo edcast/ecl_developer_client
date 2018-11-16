@@ -21,5 +21,9 @@ module EclDeveloperClient
       establish_connection("content_items/#{content_id}")
     end
 
+    def bulk_update(options = {})
+      establish_post_connection("content_items/bulk_update", options)
+    end
+
   end
 end
