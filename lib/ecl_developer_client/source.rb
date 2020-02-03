@@ -43,8 +43,7 @@ module EclDeveloperClient
     end
 
     def log_exception(source_id, options = {})
-      params = options
-      establish_post_connection("sources/#{source_id}/log_exception", params)
+      establish_post_connection("sources/#{source_id}/log_exception", options)
     end
   end
 end
