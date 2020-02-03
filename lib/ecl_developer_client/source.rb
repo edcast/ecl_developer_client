@@ -41,5 +41,9 @@ module EclDeveloperClient
     def refresh_content_items(source_id)
       establish_connection("sources/#{source_id}/refresh_content_items")
     end
+
+    def log_exception(source_id, options = {})
+      establish_post_connection("sources/#{source_id}/log_exception", options)
+    end
   end
 end
