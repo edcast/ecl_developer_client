@@ -1,5 +1,5 @@
 module EclDeveloperClient
-  class Source < EclDeveloperClient::BaseCommunicator
+  class Language < EclDeveloperClient::BaseCommunicator
     # @param [Hash] query
     #   Search Frm Source
     #  {}
